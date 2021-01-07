@@ -9,8 +9,23 @@
 import time
 import paho.mqtt.client as paho
 import hashlib
-
+import encriptacionsensor
 # ENCRIPTAR AQUI
+llaves = open("keysensor.txt",'rb')
+g,p,pubserv = 423,1299827,768344
+privsen= int.from_bytes(llaves.readline(),byteorder='little')%p
+llaves.close()
+
+pubsen = (g**privsen)%p        
+Keysen = (pubserv**privsen)%p
+
+Key_bytes= str.encode(hashlib.sha256(str(Keysen).encode()).hexdigest())
+
+key = Key_bytes
+
+
+testRC5 = encriptacionsensor.RC5(32,12,key)
+testRC5.encryptFile("textoplano.txt","textoencriptado.txt")
 ##
 
 broker="18.229.149.156"
