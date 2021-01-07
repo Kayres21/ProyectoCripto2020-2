@@ -123,4 +123,4 @@ key = Key_bytes
 
 testRC5 = RC5(32,12,key)
 
-testRC5.decryptFile("textoencriptado.txt","textodescencriptadohash.txt")
+testRC5.decryptFile("copy-textorecibido.txt","textodescencriptadorecibido.txt")
