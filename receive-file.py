@@ -11,7 +11,7 @@ import paho.mqtt.client as paho
 import hashlib
 
 broker="18.229.149.156"
-filename="1DSCI0027.jpg"
+filename="textorecibido.txt"
 #filename="chinese-proverb.jpg"
 #filename="send-receive-file.7z"
 topic="temperatura"
