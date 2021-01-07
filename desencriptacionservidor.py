@@ -130,7 +130,7 @@ key = Key_bytes
 
 testRC5 = RC5(32,12,key)
 
-entrada = open("copy-textoencriptado.txt","r")
+entrada = open("copy-textorecibido.txt","r")
 salida = open("textorecibido.txt","w")
 
 modifyreceivetext(entrada,salida)
