@@ -108,6 +108,13 @@ class RC5:
                     text = text.rstrip(b'\x00')
                 out.write(text)
 
+def modifyreceivetext(entrada,salida):
+    for line in entrada:
+        if 'end' in line:
+            return
+        salida.write(line)
+
+
 llaves = open("keyserver.txt",'rb')
 g,p,pubsen = 423,1299827,1136696
 privser= int.from_bytes(llaves.readline(),byteorder='little')%p
@@ -123,4 +130,12 @@ key = Key_bytes
 
 testRC5 = RC5(32,12,key)
 
-testRC5.decryptFile("copy-textorecibido.txt","textodescencriptadorecibido.txt")
+entrada = open("copy-textoencriptado.txt","r")
+salida = open("textorecibido.txt","w")
+
+modifyreceivetext(entrada,salida)
+entrada.close()
+salida.close()
+
+
+testRC5.decryptFile("textorecibido.txt","textodescencriptadorecibido.txt")
