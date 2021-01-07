@@ -110,7 +110,11 @@ class RC5:
 
 def modifyreceivetext(entrada,salida):
     for line in entrada:
-        if 'end' in line:
+
+        if b'end' in line:
+            lastline = line.split(b'end')
+            #print(lastline)
+            salida.write(lastline[0])
             return
         salida.write(line)
 
@@ -130,8 +134,10 @@ key = Key_bytes
 
 testRC5 = RC5(32,12,key)
 
-entrada = open("copy-textorecibido.txt","r")
-salida = open("textorecibido.txt","w")
+
+entrada = open("copy-textorecibido.txt","rb")
+salida = open("textorecibido.txt","wb")
+
 
 modifyreceivetext(entrada,salida)
 entrada.close()
