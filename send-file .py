@@ -109,6 +109,7 @@ def c_publish(client,topic,out_message,qos):
          raise SystemExit("not got puback so quitting")
 
 client= paho.Client("client-001")  #create client object client1.on_publish = on_publish                          #assign function to callback client1.connect(broker,port)                                 #establish connection client1.publish("data/files","on")  
+client.username_pw_set(username="sensor",password="T31-252")
 ######
 #client.on_message=on_message
 client.on_publish=on_publish

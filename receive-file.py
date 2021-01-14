@@ -64,6 +64,7 @@ def on_message(client, userdata, message):
 
 
 bytes_in=0
+
 client= paho.Client("client-receive-001")
 client.username_pw_set(username="escucha",password="tel252")
 ######
