@@ -64,7 +64,9 @@ def on_message(client, userdata, message):
 
 
 bytes_in=0
-client= paho.Client("client-receive-001")  #create client object client1.on_publish = on_publish                          #assign function to callback client1.connect(broker,port)                                 #establish connection client1.publish("data/files","on")  
+client= paho.Client("client-receive-001")  #create client object client1.on_publish = on_publish
+#assign function to callback client1.connect(broker,port)
+#establish connection client1.publish("data/files","on")
 ######
 client.on_message=on_message
 client.mid_value=None
