@@ -1,34 +1,13 @@
-inicio
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-temperatura de 21°C el 17-12-2020 a las 23:21
-final
+Medición de temperatura
+30° 15/01/2020 22:10
+29° 15/01/2020 23:10
+25° 16/01/2020 00:10
+20° 16/01/2020 01:10
+17° 16/01/2020 02:10
+15° 16/01/2020 03:10
+13° 16/01/2020 04:10
+13° 16/01/2020 05:10
+13° 16/01/2020 06:10
+15° 16/01/2020 07:10
+17° 16/01/2020 08:10
+20° 16/01/2020 09:10
